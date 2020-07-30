@@ -3,12 +3,12 @@ def is_even(number):
         return True
     else:
         return False
-print(is_even(4))
+print(is_even(5))
 
 def is_odd(number):
-    if is_even(number) not True:
+    if is_even(number) != True:
         return True
     else:
         return False
     
-
+print(is_odd(5))
